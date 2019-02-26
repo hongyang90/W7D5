@@ -5,7 +5,7 @@ export const postUser = user => (
     method: 'post',
     data: {user: user}
   })
-)
+);
 
 export const postSession = user => (
   $.ajax({
@@ -13,7 +13,7 @@ export const postSession = user => (
     method: 'post',
     data: { user: user }
   })
-)
+);
 
 export const destroySession = () => (
   $.ajax({
@@ -21,4 +21,4 @@ export const destroySession = () => (
     method: 'delete',
 
   })
-)
+);
